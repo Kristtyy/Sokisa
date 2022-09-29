@@ -22,4 +22,5 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sokisa&show_icons=true&locale=en" alt="sokisa" /></p>
 
+![App Screenshot](https://img.novaline.xyz/UploadCache/SirWeeb/rHGGinDh.gif)
 
