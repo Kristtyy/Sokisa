@@ -1,26 +1,39 @@
-<h1 align="center">Hi 👋, I'm Sokisa</h1>
-<h3 align="center">i code</h3>
+```py
+from toutch_grass import grass
+from requests import get
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=sokisa&label=Profile%20views&color=0e75b6&style=flat" alt="sokisa" /> </p>
+class answers:
+    def __init__(self):
+        self.grass = grass.com
 
-- 🔭 I’m currently working on **Projects**
+    def request(self):
+        req = get(self.grass)
+        if req.json()["Toutched_Grass"] == True:
+            print("Lying")
 
-- 🌱 I’m currently learning **Python, Golang**
+        if req.json()["Toutched_Grass"] == False:
+            print("Truth")
 
-- 👨‍💻 All of my projects are available at [https://github.com/Sokisa](https://github.com/Sokisa)
+    def media(self) -> tuple:
+        instagram = "sokisa.dev"
+        discord   = "Sokisa#1382"
+        server    = "https://discord.gg/2s59xkx8Yu"
 
-- 💬 Ask me about **Python (even tho im stupid)**
+        return instagram, discord, server
 
-- 📫 How to reach me **recs#1120**
+    def platforms(self) -> tuple:
+        Project_Platforms = ["Tiktok", "Xbox", "Twitch", "Discord"]
+        Lang              = ["Python"]
 
-- ⚡ Fun fact **i'm dumb**
+        return Project_Platforms, Lang
+```
 
 
 
-<h3 align="left">Languages and Tools:</h3>
+
+
+<h3 align="left">Language:</h3>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sokisa&show_icons=true&locale=en" alt="sokisa" /></p>
-
-![App Screenshot](https://img.novaline.xyz/UploadCache/SirWeeb/rHGGinDh.gif)
-
+[![Discord Presence](https://lanyard.cnrad.dev/api/986309129683492894)](https://discord.com/users/986309129683492894)
