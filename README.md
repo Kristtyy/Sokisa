@@ -2,33 +2,32 @@
     <img alt="" src=https://lanyard.cnrad.dev/api/986309129683492894/>
 
 ```py
-from toutch_grass import grass
 from requests import get
 
-class answers:
+class Answers:
     def __init__(self):
-        self.grass = grass.com
+        self.grass = "https://touch-grass.com"
 
     def request(self):
         req = get(self.grass)
         if req.json()["Toutched_Grass"] == True:
             print("Lying")
 
-        if req.json()["Toutched_Grass"] == False:
+        elif req.json()["Toutched_Grass"] == False:
             print("Truth")
 
     def media(self) -> tuple:
         instagram = "sokisa.dev"
         discord   = "Sokisa#1382"
-        server    = "https://discord.gg/2s59xkx8Yu"
+        discord_server    = "https://discord.gg/2s59xkx8Yu"
 
-        return instagram, discord, server
+        return instagram, discord, discord_server
 
     def platforms(self) -> tuple:
-        Project_Platforms = ["Tiktok", "Xbox", "Twitch", "Discord"]
-        Lang              = ["Python"]
+        projects = ["Tiktok", "Xbox", "Twitch", "Discord"]
+        langs    = ["Python"]
 
-        return Project_Platforms, Lang
+        return projects, langs
 ```
 
 
