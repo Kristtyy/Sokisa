@@ -4,30 +4,24 @@
 ```py
 from requests import get
 
-class Answers:
+class AboutMe():
+    "https://github.com/Sokisa/Sokisa"
+
     def __init__(self):
-        self.grass = "https://touch-grass.com"
+        self.username = "sokisa"
 
-    def request(self):
-        req = get(self.grass)
-        if req.json()["Toutched_Grass"] == True:
-            print("Lying")
+        self.contacts = {
+            "Instagram": "sokisa.dev",
+            "Discord": "Sokisa#1382",
+            "Discord_Server": "https://discord.gg/2s59xkx8Yu"
+        }
+        
+        self.projects = {
+            "Discord": "Vanity Checker",
+            "TikTok": "Username Swapper",
+            "Xbox": "Username Claimer"
 
-        elif req.json()["Toutched_Grass"] == False:
-            print("Truth")
-
-    def media(self) -> tuple:
-        instagram = "sokisa.dev"
-        discord   = "Sokisa#1382"
-        discord_server    = "https://discord.gg/2s59xkx8Yu"
-
-        return instagram, discord, discord_server
-
-    def platforms(self) -> tuple:
-        projects = ["Tiktok", "Xbox", "Twitch", "Discord"]
-        langs    = ["Python"]
-
-        return projects, langs
+        }
 ```
 
 
