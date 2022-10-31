@@ -12,7 +12,7 @@ class AboutMe():
 
         self.contacts = {
             "Instagram": "sokisa.dev",
-            "Discord": "Sokisa#1382",
+            "Discord": "Sokisa#1994",
             "Discord_Server": "https://discord.gg/2s59xkx8Yu"
         }
         
