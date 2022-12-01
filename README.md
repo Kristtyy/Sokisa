@@ -14,6 +14,7 @@ class AboutMe():
             "Instagram": "sokisa.dev",
             "Discord": "Sokisa#1994",
             "Discord_Server": "https://discord.gg/2s59xkx8Yu"
+            "Email" : "Sokisa@proton.me
         }
         
         self.projects = {
