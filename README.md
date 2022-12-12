@@ -16,13 +16,6 @@ class AboutMe():
             "Discord_Server": "https://discord.gg/2s59xkx8Yu"
             "Email" : "Sokisa@proton.me"
         }
-        
-        self.projects = {
-            "Discord": "Vanity Checker",
-            "TikTok": "Username Swapper",
-            "Xbox": "Username Claimer"
-
-        }
 ```
 
 
