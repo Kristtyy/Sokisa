@@ -2,19 +2,22 @@
     <img alt="" src=https://lanyard.cnrad.dev/api/986309129683492894/>
 
 ```py
-from requests import get
+#FIND THE MISTAKES
+from requests import gets
 
 class AboutMe():
-    "https://github.com/Sokisa/Sokisa"
+    link = "https://github.com/Sokisa"
 
-    def __init__(self):
-        self.username = "sokisa"
+    def init(self):
+        self.username = "Sokisa"
 
-        self.contacts = {
-            "Instagram": "sokisa.dev",
-            "Discord": "Sokisa#1994",
-            "Email" : "Sokisa@proton.me"
-        }
+        self.contacts = (
+            "Discord":"Sokisa#1994"
+            "Insta": "Soki.pub"
+            "Insta2": "Sokisa.devs"
+        )
+    def print:
+        print(self.username + self.contacts)
 ```
 
 
